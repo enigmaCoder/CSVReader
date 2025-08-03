@@ -210,8 +210,7 @@ This parser allows deep customization of CSV interpretation, driven entirely by 
 
 ## 🖼️ App Screenshots
 
-### JSON/XML Screen
-<img src="assets/json_screen.png" alt="Json Screen" width="200"/> <img src="assets/xml_screen.png" alt="XML Screen" width="200"/>
+
 
 
 
