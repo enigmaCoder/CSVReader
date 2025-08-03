@@ -48,7 +48,7 @@ class DefaultNormalizer @Inject constructor(
                 val container = output.getOrPut(containerKey) { mutableListOf<Any>() } as MutableList<Any>
                 container.add(obj)
             } else {
-                output[containerKey] = obj
+                output[containerKey] = obj.values.first() as Any
             }
         }
 
