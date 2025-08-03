@@ -38,8 +38,8 @@ The CSV Normalization Parser is a flexible, schema-driven system for parsing, no
 ### 4. `RenderEngineRegistry`
 
 - Outputs final structured data into:
-  - JSON (using standard `org.json` or Gson)
-  - XML (via `XmlSerializer`)
+  - JSON (using kotlin serialization )
+  - XML (via generic `XmlSerializer`)
   - SQL or YAML (planned extensions)
 
 ### 5. UI (Android)
